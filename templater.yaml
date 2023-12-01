@@ -1,0 +1,8 @@
+project:
+  name: pico-template
+  owner: ricardomgoncalves
+  name_formalised: Template for pi pico project
+  git:
+    init: true
+    submodules:
+      "git@github.com:raspberrypi/pico-sdk.git": "external"
