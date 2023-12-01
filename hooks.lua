@@ -1,6 +1,10 @@
 local files = {"templater.yaml", "hooks.lua", ".gitignore"}
 local folders = {".git/"}
 
+function string:startswith(start)
+    return self:sub(1, #start) == start
+end
+
 function keepFile(path)
     for _, value in ipairs(files)
     do
@@ -11,7 +15,7 @@ function keepFile(path)
 
     for _, value in ipairs(folders)
     do
-       if (self:sub(1, #start) == start) then
+       if (path:startswith(value)) then
             return false
        end
     end
