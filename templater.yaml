@@ -1,5 +1,5 @@
 project:
-  name: pico-template
+  name: pico-starter
   owner: ricardomgoncalves
   name_formalised: Template for pi pico project
   git:
