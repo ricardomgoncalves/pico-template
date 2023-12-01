@@ -1,4 +1,4 @@
-local files = {"templater.yaml", "hooks.lua", ".gitignore", ".git"}
+local files = {"templater.yaml", "hooks.lua", ".gitignore"}
 
 function keepFile(path)
     for _, value in ipairs(files)
