@@ -4,5 +4,6 @@ project:
   name_formalised: Template for pi pico project
   git:
     init: true
+    folder_name: "{{ .project.name }}"
     submodules:
       "git@github.com:raspberrypi/pico-sdk.git": "external"
