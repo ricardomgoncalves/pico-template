@@ -16,7 +16,7 @@ pico_sdk_init()
 # rest of your project
 
 add_executable({{ .project.name }}
-  main.c
+  src/main.c
 )
 
 target_include_directories({{ .project.name }} PRIVATE
