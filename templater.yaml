@@ -2,4 +2,4 @@ project:
   name: pico-starter
   owner: ricardomgoncalves
   name_formalised: Template for pi pico project
-  remote_origin:
+  remote_origin: ""
