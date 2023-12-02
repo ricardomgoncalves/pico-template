@@ -1,5 +1,5 @@
 project:
-  name: pico-starter
+  name: pico-start-template
   owner: ricardomgoncalves
   name_formalised: Template for pi pico project
   remote_origin: ""
