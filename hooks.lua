@@ -1,4 +1,4 @@
-local files = {"templater.yaml", "hooks.lua", ".gitignore"}
+local files = {"templater.yaml", "hooks.lua", ".gitignore", "README.md"}
 local folders = {".git/"}
 
 function string:startswith(start)
